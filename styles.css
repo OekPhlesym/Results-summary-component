@@ -1,0 +1,198 @@
+
+ body {
+  background-color: whitesmoke;
+}
+ 
+.container{
+    display: flex;
+    margin: 95px 400px;
+    padding: 25px;
+    position: fixed;
+  }
+
+.yourResults{
+    background:linear-gradient(192deg, rgb(58 43 213 / 80%), hsl(252.52deg 86.21% 44.4% / 92%)60%);
+    color: white;
+    width: 320px;
+    height: 431px;
+    border-radius: 30px;
+    text-align: center;
+    position: relative;
+    left: 15px;
+}
+
+#results{
+    font-size: 18px;
+    font-family: 'Hanken Grotesk', sans-serif ;
+    padding-top: 15px;
+  }
+
+.circle{
+    border: linear-gradient(198deg, rgb(144 43 213 / 80%), hsl(244.21deg 69.85% 48.68%)60%);
+    border-radius: 80px;
+    width: 150px;
+    height: 150px;
+    margin: 35px auto 30px auto;
+    background:linear-gradient(1deg, rgb(113 43 213 / 77%), hsl(238.67deg 86.21% 44.4% / 34%)60%);
+  }
+
+.numBold {
+    font-size: 50px;
+    font-family: 'Hanken Grotesk', sans-serif ;
+    font-weight: 700;
+    padding: 35px 0px 0px 0px;
+  }
+ 
+.fontSmall{
+    font-family: 'Hanken Grotesk', sans-serif ;
+    margin: 0;
+    font-weight: 500;
+    font-size: 13px;
+  }
+
+.topic {
+  font-size: 30px;
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+.paragraph {
+    line-height: 0.3;
+    font-weight: 10;
+    font-size: 14px;
+    font-family: 'Hanken Grotesk', sans-serif ;
+    margin: 10px 0px 10px 0px;
+    padding: 5px 0px 0px 0px;
+  }
+
+.summary{
+    border:  solid hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 100%);
+    width: 320px;
+    height: 425px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 0px 0px 2px 30px;
+ }
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  }
+
+.reaction {
+  border: solid white;
+  line-height: 30px;
+  color: hsl(0, 100%, 67%);
+  background-color: rgba(250, 227, 227, 1);
+  border-radius: 10px;
+  height: 30px;
+  width: 250px;
+  padding-left: 15px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 20px;
+}
+
+.memmory {
+  border: solid white;
+  line-height: 25px;
+  color: hsl(39, 100%, 56%);
+  background-color: hsl(39, 100%, 93%, 1);
+  border-radius: 10px;
+  height: 30px;
+  width: 250px;
+  padding-left: 15px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 20px;
+  
+}
+
+.verbal {
+  border: solid white;
+  line-height: 25px;
+  color: hsl(166, 100%, 37%);
+  background-color: hsl(166, 100%, 93%, 1);
+  border-radius: 10px;
+  height: 30px;
+  width: 250px;
+  padding-left: 15px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 20px;  
+}
+
+.visual {
+  border: solid white;
+  line-height: 25px;
+  color: hsl(258, 100%, 50%);
+  background-color: hsl(258, 100%, 93%, 1);
+  border-radius: 10px;
+  height: 30px;
+  width: 250px;
+  padding-left: 15px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 20px;
+  
+}
+
+.continue {
+  border-radius: 80px;
+  line-height: 25px;
+  display: flexbox;
+  text-align: center;
+  justify-content: center;
+  color: hsl(0, 0%, 100%);
+  background-color: #141426;
+  border-radius: 40px;
+  height: 30px;
+  width: 160px;
+  padding-left: 55px;
+  padding-right: 60px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 20px;
+  margin-left: 13px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px; 
+}
+
+#itemList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin: 10px 0px 10px 0px;
+  font-size: 16px;
+  font-family: 'Hanken Grotesk', sans-serif ;
+  font-weight: 300;
+}
+
+  .denominator {
+    font-size: 15px;
+    font-family: 'Hanken Grotesk', sans-serif ;
+    font-weight: 700;
+    font-size: large;
+    color: hsl(240, 3%, 64%);
+  }
+
+  .numerator {
+    font-size: 15px;
+    font-family: 'Hanken Grotesk', sans-serif ;
+    font-weight: 700;
+    font-size: large;
+    color: darkslategrey;
+  }
+
+.attribute {
+  padding: 555px 550px;
+  position: fixed ;
+}
