@@ -1,13 +1,16 @@
 
- body {
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: whitesmoke;
-}
- 
+  }
+  
 .container{
     display: flex;
-    margin: 95px 400px;
     padding: 25px;
-    position: fixed;
   }
 
 .yourResults{
@@ -41,6 +44,7 @@
     font-family: 'Hanken Grotesk', sans-serif ;
     font-weight: 700;
     padding: 35px 0px 0px 0px;
+
   }
  
 .fontSmall{
@@ -110,7 +114,6 @@
   padding-top: 5px;
   padding-bottom: 5px;
   margin-top: 20px;
-  
 }
 
 .verbal {
@@ -141,7 +144,6 @@
   padding-top: 5px;
   padding-bottom: 5px;
   margin-top: 20px;
-  
 }
 
 .continue {
@@ -192,7 +194,3 @@
     color: darkslategrey;
   }
 
-.attribute {
-  padding: 555px 550px;
-  position: fixed ;
-}
